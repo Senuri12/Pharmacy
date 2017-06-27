@@ -79,15 +79,6 @@ app.get('/orders/:id',function(req,res){
     });
 });
 
-//I ADDED STUFF HERE
-app.get('/orders/:id',function(req,res){
-    var id = req.params.id;
-    console.log(id);
-    db2.orders.findOne({_id: mongojs.ObjectId(id)},function(err,doc){
-        res.json(doc);
-    });
-});
-
 app.put('/orders/:id', function(req,res){
     var id = req.params.id;
     console.log(req.body.name);
