@@ -1,0 +1,27 @@
+{
+  "name": "pharmacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senuri12/Pharmacy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Senuri12/Pharmacy/issues"
+  },
+  "homepage": "https://github.com/Senuri12/Pharmacy#readme"
+}
