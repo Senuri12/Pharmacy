@@ -1,0 +1,60 @@
+<div ng-controller="appctrl">
+    <h3>update drug information</h3>
+
+    <table class="table">
+        <thead>
+        <tr>
+
+            <th>  </th>
+            <th></th>
+
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Drug catagory </td>
+            <td>
+                <!--  <select ng-model="drugcat.dCat">
+                         name="druglist{{$index}}"
+                          ng-change="updateD()";
+                          ng-options="singleBatch as druglist.Drug_Category for singleBatch in druglist">
+                 <option ng-repeat="druglist in druglist" value="{{druglist.dCategoryName}}">{{druglist.dCategoryName}}</option>
+
+                  </select>-->
+                <select ng-model="Batch.dCategoryName" ng-options=" drug as drug.dCategoryName for drug in dlist" ng-change="loadDet()">
+                </select>
+            </td></tr>
+        <tr>
+            <td>    Drug Name</td>
+            <td><select ng-model="Batch.dName" ng-options="drug as drug.dName for drug in drlist" ng-change="getTime()">
+            </select></td>
+        </tr>
+        <tr><td>Drug type</td>
+            <td> <input type="text" ng-model="drugl.dUnit"></td></tr>
+        <tr>
+            <td>Price</td>
+            <td><input type="text" ng-model="drugl.dPrice"></td>
+        </tr>
+        <tr>
+            <td>
+                Record level
+            </td>
+            <td><input type="text" ng-model="drugl.dStatusOrder"></td>
+
+        </tr>
+        <tr>
+            <td>Danger level</td>
+            <td> <input type="text" ng-model="drugl.dStatusDanger"></td>
+        </tr>
+        <tr>
+            <td>Remark</td>
+            <td> <input type="text" ng-model="drugl.dRemarks"></td>
+        </tr>
+        <tr>
+            <td>     </td>
+            <td>  <button type="button" ng-click ="updateDrugs()">Upadate Drug</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

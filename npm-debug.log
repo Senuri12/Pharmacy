@@ -1,0 +1,608 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose-shortid' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose-shortid
+8 silly fetchNamedPackageData mongoose-shortid
+9 silly mapToRegistry name mongoose-shortid
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mongoose-shortid',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mongoose-shortid',
+12 silly mapToRegistry   name: 'mongoose-shortid',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/mongoose-shortid
+14 verbose request uri https://registry.npmjs.org/mongoose-shortid
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:15:28 PM
+17 verbose request id f66ab33e6a28cc4d
+18 http request GET https://registry.npmjs.org/mongoose-shortid
+19 http 200 https://registry.npmjs.org/mongoose-shortid
+20 verbose headers { server: 'nginx/1.10.3',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Tue, 04 Oct 2016 15:50:33 GMT',
+20 verbose headers   etag: 'W/"57f3cfc9-23df"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '2115',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sat, 01 Jul 2017 11:43:39 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1498909419.824260,VS0,VE603',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.3',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Tue, 04 Oct 2016 15:50:33 GMT',
+21 silly get     etag: 'W/"57f3cfc9-23df"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '2115',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sat, 01 Jul 2017 11:43:39 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sin18024-SIN',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1498909419.824260,VS0,VE603',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving mongoose-shortid to C:\Users\Nvik\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose-shortid\.cache.json
+23 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule mongoose-shortid@0.4.2 checking installable status
+37 silly cache add args [ 'mongoose-shortid', null ]
+38 verbose cache add spec mongoose-shortid
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'mongoose-shortid',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'mongoose-shortid',
+39 silly cache add   name: 'mongoose-shortid',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed mongoose-shortid@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for mongoose-shortid
+42 info addNameTag [ 'mongoose-shortid', 'latest' ]
+43 silly mapToRegistry name mongoose-shortid
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'mongoose-shortid',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'mongoose-shortid',
+46 silly mapToRegistry   name: 'mongoose-shortid',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/mongoose-shortid
+48 verbose addNameTag registry:https://registry.npmjs.org/mongoose-shortid not in flight; fetching
+49 verbose get https://registry.npmjs.org/mongoose-shortid not expired, no request
+50 silly addNameTag next cb for mongoose-shortid with tag latest
+51 silly addNamed mongoose-shortid@0.4.2
+52 verbose addNamed "0.4.2" is a plain semver version for mongoose-shortid
+53 silly mapToRegistry name mongoose-shortid
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'mongoose-shortid',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'mongoose-shortid',
+56 silly mapToRegistry   name: 'mongoose-shortid',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/mongoose-shortid
+58 verbose addRemoteTarball https://registry.npmjs.org/mongoose-shortid/-/mongoose-shortid-0.4.2.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose-shortid/-/mongoose-shortid-0.4.2.tgz',
+59 verbose addRemoteTarball   '0f51468ebdcca1d30119d3cff533b2f932eeb799' ]
+60 info retry fetch attempt 1 at 6:15:29 PM
+61 info attempt registry request try #1 at 6:15:29 PM
+62 http fetch GET https://registry.npmjs.org/mongoose-shortid/-/mongoose-shortid-0.4.2.tgz
+63 http fetch 200 https://registry.npmjs.org/mongoose-shortid/-/mongoose-shortid-0.4.2.tgz
+64 silly fetchAndShaCheck shasum 0f51468ebdcca1d30119d3cff533b2f932eeb799
+65 verbose addTmpTarball C:\Users\Nvik\AppData\Local\Temp\npm-11088-ed7360e7\registry.npmjs.org\mongoose-shortid\-\mongoose-shortid-0.4.2.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for mongoose-shortid@0.4.2
+67 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd mongoose-shortid@0.4.2
+69 verbose afterAdd C:\Users\Nvik\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Nvik\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package\package.json written
+72 silly fetchNamedPackageData bignum
+73 silly mapToRegistry name bignum
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bignum',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bignum',
+76 silly mapToRegistry   name: 'bignum',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bignum
+78 verbose request uri https://registry.npmjs.org/bignum
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 6:15:29 PM
+81 http request GET https://registry.npmjs.org/bignum
+82 http 200 https://registry.npmjs.org/bignum
+83 verbose headers { server: 'nginx/1.10.3',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'last-modified': 'Sun, 27 Nov 2016 02:10:46 GMT',
+83 verbose headers   etag: 'W/"583a40a6-a98e"',
+83 verbose headers   'content-encoding': 'gzip',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'content-length': '6464',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Sat, 01 Jul 2017 11:43:39 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '0',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+83 verbose headers   'x-cache': 'MISS',
+83 verbose headers   'x-cache-hits': '0',
+83 verbose headers   'x-timer': 'S1498909420.709248,VS0,VE148',
+83 verbose headers   vary: 'Accept-Encoding' }
+84 silly get cb [ 200,
+84 silly get   { server: 'nginx/1.10.3',
+84 silly get     'content-type': 'application/json',
+84 silly get     'last-modified': 'Sun, 27 Nov 2016 02:10:46 GMT',
+84 silly get     etag: 'W/"583a40a6-a98e"',
+84 silly get     'content-encoding': 'gzip',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'content-length': '6464',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Sat, 01 Jul 2017 11:43:39 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '0',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-sin18024-SIN',
+84 silly get     'x-cache': 'MISS',
+84 silly get     'x-cache-hits': '0',
+84 silly get     'x-timer': 'S1498909420.709248,VS0,VE148',
+84 silly get     vary: 'Accept-Encoding' } ]
+85 verbose get saving bignum to C:\Users\Nvik\AppData\Roaming\npm-cache\registry.npmjs.org\bignum\.cache.json
+86 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+87 silly resolveWithNewModule bignum@0.6.2 checking installable status
+88 silly cache add args [ 'bignum@~0.6.1', null ]
+89 verbose cache add spec bignum@~0.6.1
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'bignum@~0.6.1',
+90 silly cache add   scope: null,
+90 silly cache add   escapedName: 'bignum',
+90 silly cache add   name: 'bignum',
+90 silly cache add   rawSpec: '~0.6.1',
+90 silly cache add   spec: '>=0.6.1 <0.7.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed bignum@>=0.6.1 <0.7.0
+92 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for bignum
+93 silly addNameRange { name: 'bignum', range: '>=0.6.1 <0.7.0', hasData: false }
+94 silly mapToRegistry name bignum
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'bignum',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   escapedName: 'bignum',
+97 silly mapToRegistry   name: 'bignum',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/bignum
+99 verbose addNameRange registry:https://registry.npmjs.org/bignum not in flight; fetching
+100 verbose get https://registry.npmjs.org/bignum not expired, no request
+101 silly addNameRange number 2 { name: 'bignum', range: '>=0.6.1 <0.7.0', hasData: true }
+102 silly addNameRange versions [ 'bignum',
+102 silly addNameRange   [ '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.5.1',
+102 silly addNameRange     '0.5.2',
+102 silly addNameRange     '0.5.3',
+102 silly addNameRange     '0.5.4',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.6.1',
+102 silly addNameRange     '0.6.2',
+102 silly addNameRange     '0.7.0',
+102 silly addNameRange     '0.8.0',
+102 silly addNameRange     '0.9.0',
+102 silly addNameRange     '0.9.1',
+102 silly addNameRange     '0.9.2',
+102 silly addNameRange     '0.9.3',
+102 silly addNameRange     '0.10.0',
+102 silly addNameRange     '0.10.1',
+102 silly addNameRange     '0.10.2',
+102 silly addNameRange     '0.11.0',
+102 silly addNameRange     '0.12.0',
+102 silly addNameRange     '0.12.1',
+102 silly addNameRange     '0.12.2',
+102 silly addNameRange     '0.12.3',
+102 silly addNameRange     '0.12.4',
+102 silly addNameRange     '0.12.5' ] ]
+103 silly addNamed bignum@0.6.2
+104 verbose addNamed "0.6.2" is a plain semver version for bignum
+105 silly mapToRegistry name bignum
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'bignum',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'bignum',
+108 silly mapToRegistry   name: 'bignum',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/bignum
+110 verbose addRemoteTarball https://registry.npmjs.org/bignum/-/bignum-0.6.2.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/bignum/-/bignum-0.6.2.tgz',
+111 verbose addRemoteTarball   '73099542d00ac244df3b35744f9ce627dd880505' ]
+112 info retry fetch attempt 1 at 6:15:29 PM
+113 info attempt registry request try #1 at 6:15:29 PM
+114 http fetch GET https://registry.npmjs.org/bignum/-/bignum-0.6.2.tgz
+115 http fetch 200 https://registry.npmjs.org/bignum/-/bignum-0.6.2.tgz
+116 silly fetchAndShaCheck shasum 73099542d00ac244df3b35744f9ce627dd880505
+117 verbose addTmpTarball C:\Users\Nvik\AppData\Local\Temp\npm-11088-ed7360e7\registry.npmjs.org\bignum\-\bignum-0.6.2.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for bignum@0.6.2
+119 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+120 silly cache afterAdd bignum@0.6.2
+121 verbose afterAdd C:\Users\Nvik\AppData\Roaming\npm-cache\bignum\0.6.2\package\package.json not in flight; writing
+122 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 verbose afterAdd C:\Users\Nvik\AppData\Roaming\npm-cache\bignum\0.6.2\package\package.json written
+124 silly loadAllDepsIntoIdealTree Finishing
+125 silly loadIdealTree Finishing
+126 silly currentTree pharmacy@1.0.0
+126 silly currentTree +-- accepts@1.3.3
+126 silly currentTree +-- array-flatten@1.1.1
+126 silly currentTree +-- async@2.1.4
+126 silly currentTree +-- bluebird@2.10.2
+126 silly currentTree +-- body-parser@1.17.2
+126 silly currentTree +-- bson@1.0.4
+126 silly currentTree +-- buffer-shims@1.0.0
+126 silly currentTree +-- bytes@2.4.0
+126 silly currentTree +-- content-disposition@0.5.2
+126 silly currentTree +-- content-type@1.0.2
+126 silly currentTree +-- cookie-signature@1.0.6
+126 silly currentTree +-- cookie@0.3.1
+126 silly currentTree +-- core-util-is@1.0.2
+126 silly currentTree +-- debug@2.6.7
+126 silly currentTree +-- depd@1.1.0
+126 silly currentTree +-- destroy@1.0.4
+126 silly currentTree +-- ee-first@1.1.1
+126 silly currentTree +-- encodeurl@1.0.1
+126 silly currentTree +-- es6-promise@3.2.1
+126 silly currentTree +-- escape-html@1.0.3
+126 silly currentTree +-- etag@1.8.0
+126 silly currentTree +-- express@4.15.3
+126 silly currentTree +-- extend@3.0.1
+126 silly currentTree +-- finalhandler@1.0.3
+126 silly currentTree +-- forwarded@0.1.0
+126 silly currentTree +-- fresh@0.5.0
+126 silly currentTree +-- hooks-fixed@2.0.0
+126 silly currentTree +-- http-errors@1.6.1
+126 silly currentTree +-- iconv-lite@0.4.15
+126 silly currentTree +-- inherits@2.0.3
+126 silly currentTree +-- ipaddr.js@1.3.0
+126 silly currentTree +-- isarray@1.0.0
+126 silly currentTree +-- kareem@1.4.1
+126 silly currentTree +-- lodash@4.17.4
+126 silly currentTree +-- media-typer@0.3.0
+126 silly currentTree +-- merge-descriptors@1.0.1
+126 silly currentTree +-- methods@1.1.2
+126 silly currentTree +-- mime-db@1.27.0
+126 silly currentTree +-- mime-types@2.1.15
+126 silly currentTree +-- mime@1.3.4
+126 silly currentTree +-- mongodb-core@2.1.11
+126 silly currentTree +-- mongodb@2.2.27
+126 silly currentTree +-- mongoose-auto-increment@5.0.1
+126 silly currentTree +-- mongoose@4.11.0
+126 silly currentTree +-- mpath@0.3.0
+126 silly currentTree +-- mpromise@0.5.5
+126 silly currentTree +-- mquery@2.3.1
+126 silly currentTree | +-- debug@2.6.8
+126 silly currentTree | `-- sliced@0.0.5
+126 silly currentTree +-- ms@2.0.0
+126 silly currentTree +-- muri@1.2.1
+126 silly currentTree +-- negotiator@0.6.1
+126 silly currentTree +-- on-finished@2.3.0
+126 silly currentTree +-- parseurl@1.3.1
+126 silly currentTree +-- path-to-regexp@0.1.7
+126 silly currentTree +-- process-nextick-args@1.0.7
+126 silly currentTree +-- proxy-addr@1.1.4
+126 silly currentTree +-- qs@6.4.0
+126 silly currentTree +-- range-parser@1.2.0
+126 silly currentTree +-- raw-body@2.2.0
+126 silly currentTree +-- readable-stream@2.2.7
+126 silly currentTree +-- regexp-clone@0.0.1
+126 silly currentTree +-- require_optional@1.0.1
+126 silly currentTree +-- resolve-from@2.0.0
+126 silly currentTree +-- safe-buffer@5.1.1
+126 silly currentTree +-- semver@5.3.0
+126 silly currentTree +-- send@0.15.3
+126 silly currentTree +-- serve-static@1.12.3
+126 silly currentTree +-- setprototypeof@1.0.3
+126 silly currentTree +-- sliced@1.0.1
+126 silly currentTree +-- statuses@1.3.1
+126 silly currentTree +-- string_decoder@1.0.3
+126 silly currentTree +-- type-is@1.6.15
+126 silly currentTree +-- unpipe@1.0.0
+126 silly currentTree +-- util-deprecate@1.0.2
+126 silly currentTree +-- utils-merge@1.0.0
+126 silly currentTree `-- vary@1.1.1
+127 silly idealTree pharmacy@1.0.0
+127 silly idealTree +-- accepts@1.3.3
+127 silly idealTree +-- array-flatten@1.1.1
+127 silly idealTree +-- async@2.1.4
+127 silly idealTree +-- bignum@0.6.2
+127 silly idealTree +-- bluebird@2.10.2
+127 silly idealTree +-- body-parser@1.17.2
+127 silly idealTree +-- bson@1.0.4
+127 silly idealTree +-- buffer-shims@1.0.0
+127 silly idealTree +-- bytes@2.4.0
+127 silly idealTree +-- content-disposition@0.5.2
+127 silly idealTree +-- content-type@1.0.2
+127 silly idealTree +-- cookie-signature@1.0.6
+127 silly idealTree +-- cookie@0.3.1
+127 silly idealTree +-- core-util-is@1.0.2
+127 silly idealTree +-- debug@2.6.7
+127 silly idealTree +-- depd@1.1.0
+127 silly idealTree +-- destroy@1.0.4
+127 silly idealTree +-- ee-first@1.1.1
+127 silly idealTree +-- encodeurl@1.0.1
+127 silly idealTree +-- es6-promise@3.2.1
+127 silly idealTree +-- escape-html@1.0.3
+127 silly idealTree +-- etag@1.8.0
+127 silly idealTree +-- express@4.15.3
+127 silly idealTree +-- extend@3.0.1
+127 silly idealTree +-- finalhandler@1.0.3
+127 silly idealTree +-- forwarded@0.1.0
+127 silly idealTree +-- fresh@0.5.0
+127 silly idealTree +-- hooks-fixed@2.0.0
+127 silly idealTree +-- http-errors@1.6.1
+127 silly idealTree +-- iconv-lite@0.4.15
+127 silly idealTree +-- inherits@2.0.3
+127 silly idealTree +-- ipaddr.js@1.3.0
+127 silly idealTree +-- isarray@1.0.0
+127 silly idealTree +-- kareem@1.4.1
+127 silly idealTree +-- lodash@4.17.4
+127 silly idealTree +-- media-typer@0.3.0
+127 silly idealTree +-- merge-descriptors@1.0.1
+127 silly idealTree +-- methods@1.1.2
+127 silly idealTree +-- mime-db@1.27.0
+127 silly idealTree +-- mime-types@2.1.15
+127 silly idealTree +-- mime@1.3.4
+127 silly idealTree +-- mongodb-core@2.1.11
+127 silly idealTree +-- mongodb@2.2.27
+127 silly idealTree +-- mongoose-auto-increment@5.0.1
+127 silly idealTree +-- mongoose-shortid@0.4.2
+127 silly idealTree +-- mongoose@4.11.0
+127 silly idealTree +-- mpath@0.3.0
+127 silly idealTree +-- mpromise@0.5.5
+127 silly idealTree +-- mquery@2.3.1
+127 silly idealTree | +-- debug@2.6.8
+127 silly idealTree | `-- sliced@0.0.5
+127 silly idealTree +-- ms@2.0.0
+127 silly idealTree +-- muri@1.2.1
+127 silly idealTree +-- negotiator@0.6.1
+127 silly idealTree +-- on-finished@2.3.0
+127 silly idealTree +-- parseurl@1.3.1
+127 silly idealTree +-- path-to-regexp@0.1.7
+127 silly idealTree +-- process-nextick-args@1.0.7
+127 silly idealTree +-- proxy-addr@1.1.4
+127 silly idealTree +-- qs@6.4.0
+127 silly idealTree +-- range-parser@1.2.0
+127 silly idealTree +-- raw-body@2.2.0
+127 silly idealTree +-- readable-stream@2.2.7
+127 silly idealTree +-- regexp-clone@0.0.1
+127 silly idealTree +-- require_optional@1.0.1
+127 silly idealTree +-- resolve-from@2.0.0
+127 silly idealTree +-- safe-buffer@5.1.1
+127 silly idealTree +-- semver@5.3.0
+127 silly idealTree +-- send@0.15.3
+127 silly idealTree +-- serve-static@1.12.3
+127 silly idealTree +-- setprototypeof@1.0.3
+127 silly idealTree +-- sliced@1.0.1
+127 silly idealTree +-- statuses@1.3.1
+127 silly idealTree +-- string_decoder@1.0.3
+127 silly idealTree +-- type-is@1.6.15
+127 silly idealTree +-- unpipe@1.0.0
+127 silly idealTree +-- util-deprecate@1.0.2
+127 silly idealTree +-- utils-merge@1.0.0
+127 silly idealTree `-- vary@1.1.1
+128 silly generateActionsToTake Starting
+129 silly install generateActionsToTake
+130 silly generateActionsToTake Finishing
+131 silly diffTrees action count 2
+132 silly diffTrees add bignum@0.6.2
+133 silly diffTrees add mongoose-shortid@0.4.2
+134 silly decomposeActions action count 16
+135 silly decomposeActions fetch bignum@0.6.2
+136 silly decomposeActions extract bignum@0.6.2
+137 silly decomposeActions test bignum@0.6.2
+138 silly decomposeActions preinstall bignum@0.6.2
+139 silly decomposeActions build bignum@0.6.2
+140 silly decomposeActions install bignum@0.6.2
+141 silly decomposeActions postinstall bignum@0.6.2
+142 silly decomposeActions finalize bignum@0.6.2
+143 silly decomposeActions fetch mongoose-shortid@0.4.2
+144 silly decomposeActions extract mongoose-shortid@0.4.2
+145 silly decomposeActions test mongoose-shortid@0.4.2
+146 silly decomposeActions preinstall mongoose-shortid@0.4.2
+147 silly decomposeActions build mongoose-shortid@0.4.2
+148 silly decomposeActions install mongoose-shortid@0.4.2
+149 silly decomposeActions postinstall mongoose-shortid@0.4.2
+150 silly decomposeActions finalize mongoose-shortid@0.4.2
+151 silly runTopLevelLifecycles Starting
+152 silly executeActions Starting
+153 silly install executeActions
+154 silly doSerial global-install 0
+155 silly doParallel fetch 2
+156 verbose correctMkdir C:\Users\Nvik\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+157 verbose lock using C:\Users\Nvik\AppData\Roaming\npm-cache\_locks\staging-33a88142bc49def9.lock for C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging
+158 silly doParallel extract 2
+159 silly extract bignum@0.6.2
+160 silly extract mongoose-shortid@0.4.2
+161 verbose unbuild node_modules\.staging\bignum-dd43ef45
+162 verbose unbuild node_modules\.staging\mongoose-shortid-8716c85c
+163 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c is being purged from base C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master
+164 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c
+165 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45 is being purged from base C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master
+166 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45
+167 verbose tar unpack C:\Users\Nvik\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package.tgz
+168 verbose tar unpacking to C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c
+169 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c is being purged
+170 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c
+171 verbose tar unpack C:\Users\Nvik\AppData\Roaming\npm-cache\bignum\0.6.2\package.tgz
+172 verbose tar unpacking to C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45
+173 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45 is being purged
+174 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45
+175 silly gunzTarPerm modes [ '777', '666' ]
+176 silly gunzTarPerm modes [ '777', '666' ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+181 silly gunzTarPerm extractEntry .npmignore
+182 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+183 silly gunzTarPerm extractEntry index.js
+184 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+185 silly gunzTarPerm extractEntry .npmignore
+186 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+187 silly gunzTarPerm extractEntry README.md
+188 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+189 silly gunzTarPerm extractEntry .travis.yml
+190 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+191 silly gunzTarPerm extractEntry README.markdown
+192 silly gunzTarPerm modified mode [ 'README.markdown', 420, 438 ]
+193 silly gunzTarPerm extractEntry LICENSE
+194 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+195 silly gunzTarPerm extractEntry index.js
+196 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+197 silly gunzTarPerm extractEntry bignum.cc
+198 silly gunzTarPerm modified mode [ 'bignum.cc', 420, 438 ]
+199 silly gunzTarPerm extractEntry lib/genid.js
+200 silly gunzTarPerm modified mode [ 'lib/genid.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry lib/index.js
+202 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry lib/shortid.js
+204 silly gunzTarPerm modified mode [ 'lib/shortid.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry binding.gyp
+206 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+207 silly gunzTarPerm extractEntry examples/gen.js
+208 silly gunzTarPerm modified mode [ 'examples/gen.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry examples/perfect.js
+210 silly gunzTarPerm modified mode [ 'examples/perfect.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry examples/simple.js
+212 silly gunzTarPerm modified mode [ 'examples/simple.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry test/big.js
+214 silly gunzTarPerm modified mode [ 'test/big.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry test/buf.js
+216 silly gunzTarPerm modified mode [ 'test/buf.js', 420, 438 ]
+217 silly gunzTarPerm extractEntry test/seed.js
+218 silly gunzTarPerm modified mode [ 'test/seed.js', 420, 438 ]
+219 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c\node_modules is being purged
+220 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c\node_modules
+221 silly gentlyRm C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45\node_modules is being purged
+222 verbose gentlyRm don't care about contents; nuking C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45\node_modules
+223 silly doParallel preinstall 2
+224 silly preinstall bignum@0.6.2 C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45
+225 info lifecycle bignum@0.6.2~preinstall: bignum@0.6.2
+226 silly preinstall mongoose-shortid@0.4.2 C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\mongoose-shortid-8716c85c
+227 info lifecycle mongoose-shortid@0.4.2~preinstall: mongoose-shortid@0.4.2
+228 silly lifecycle bignum@0.6.2~preinstall: no script for preinstall, continuing
+229 silly lifecycle mongoose-shortid@0.4.2~preinstall: no script for preinstall, continuing
+230 silly doReverseSerial remove 0
+231 silly doSerial move 0
+232 silly doSerial finalize 2
+233 silly finalize C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\bignum
+234 silly finalize C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\mongoose-shortid
+235 silly doSerial build 2
+236 silly build bignum@0.6.2
+237 info linkStuff bignum@0.6.2
+238 silly linkStuff bignum@0.6.2 has C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules as its parent node_modules
+239 verbose linkBins bignum@0.6.2
+240 verbose linkMans bignum@0.6.2
+241 silly build mongoose-shortid@0.4.2
+242 info linkStuff mongoose-shortid@0.4.2
+243 silly linkStuff mongoose-shortid@0.4.2 has C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules as its parent node_modules
+244 verbose linkBins mongoose-shortid@0.4.2
+245 verbose linkMans mongoose-shortid@0.4.2
+246 silly doSerial global-link 0
+247 silly doParallel update-linked 0
+248 silly doSerial install 2
+249 silly install bignum@0.6.2 C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging\bignum-dd43ef45
+250 info lifecycle bignum@0.6.2~install: bignum@0.6.2
+251 verbose lifecycle bignum@0.6.2~install: unsafe-perm in lifecycle true
+252 verbose lifecycle bignum@0.6.2~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\bignum\node_modules\.bin;C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\mongo\bin;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\apache-maven-3.5.0\bin;C:\Program Files\glassfish-4.1\glassfish4\bin;C:\Users\Nvik\AppData\Roaming\npm
+253 verbose lifecycle bignum@0.6.2~install: CWD: C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\bignum
+254 silly lifecycle bignum@0.6.2~install: Args: [ '/d /s /c', 'node-gyp configure build' ]
+255 silly lifecycle bignum@0.6.2~install: Returned: code: 1  signal: null
+256 info lifecycle bignum@0.6.2~install: Failed to exec install script
+257 verbose unlock done using C:\Users\Nvik\AppData\Roaming\npm-cache\_locks\staging-33a88142bc49def9.lock for C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master\node_modules\.staging
+258 silly rollbackFailedOptional Starting
+259 silly rollbackFailedOptional Finishing
+260 silly runTopLevelLifecycles Finishing
+261 silly install printInstalled
+262 warn mongoose-shortid@0.4.2 requires a peer of mongoose@>= 3.5.0 < 4 but none was installed.
+263 verbose If you need help, you may report this error at:
+263 verbose     <https://github.com/npm/npm/issues>
+264 warn pharmacy@1.0.0 No description
+265 verbose If you need help, you may report this error at:
+265 verbose     <https://github.com/npm/npm/issues>
+266 verbose stack Error: bignum@0.6.2 install: `node-gyp configure build`
+266 verbose stack Exit status 1
+266 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+266 verbose stack     at emitTwo (events.js:106:13)
+266 verbose stack     at EventEmitter.emit (events.js:191:7)
+266 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+266 verbose stack     at emitTwo (events.js:106:13)
+266 verbose stack     at ChildProcess.emit (events.js:191:7)
+266 verbose stack     at maybeClose (internal/child_process.js:886:16)
+266 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+267 verbose pkgid bignum@0.6.2
+268 verbose cwd C:\Users\Nvik\Desktop\projects\afffffffffffffffffffffffffffffffffffffffffffff\Pharmacy-master\Pharmacy-master
+269 error Windows_NT 6.3.9600
+270 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose-shortid"
+271 error node v6.10.2
+272 error npm  v3.10.10
+273 error code ELIFECYCLE
+274 error bignum@0.6.2 install: `node-gyp configure build`
+274 error Exit status 1
+275 error Failed at the bignum@0.6.2 install script 'node-gyp configure build'.
+275 error Make sure you have the latest version of node.js and npm installed.
+275 error If you do, this is most likely a problem with the bignum package,
+275 error not with npm itself.
+275 error Tell the author that this fails on your system:
+275 error     node-gyp configure build
+275 error You can get information on how to open an issue for this project with:
+275 error     npm bugs bignum
+275 error Or if that isn't available, you can get their info via:
+275 error     npm owner ls bignum
+275 error There is likely additional logging output above.
+276 verbose exit [ 1, true ]

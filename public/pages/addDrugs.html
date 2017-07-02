@@ -1,0 +1,80 @@
+<div class="container">
+    <h1>Pharmacy</h1>
+
+    <div  ng-controller="drgCtrl">
+
+        <h3>Add Drugs</h3>
+        <table class="table">
+            <thead>
+            <tr>
+
+                <th>  </th>
+                <th></th>
+
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Select file</td>
+                <td> <input type="file" class="form-control" xlsx-model="excel" multiple>
+                    <pre ng-show="excel">{{excel | json}}</pre>
+                    <output id="out">
+                        file contents will appear here
+                    </output>
+                   <button ng-click="readCSV()">
+                        Display CSV as Data Table
+                    </button>
+                    <div id="divID">
+                        <table>
+                            <tr ng-repeat="x in data">
+                                <td ng-repeat="y in x">{{ y }}</td>
+                            </tr>
+                        </table>
+                    </div></td>
+            </tr>
+            <tr>
+                <td>Drug ID </td><td><input type="text" class="form-control" ng-model="drugs.did"></td>
+            </tr>
+            <tr>
+                <td>Drug Name </td><td><input class="form-control" ng-model="drugs.dname"></td>
+            </tr>
+            <tr>
+                <td>Drug quentity </td><td><input class="form-control" ng-model="drugs.dqty"></td>
+            </tr>
+            <tr>
+                <td>Remark </td><td><input class="form-control" ng-model="drugs.dremark"></td>
+            </tr>
+            <tr>
+                <td>Drug create date </td><td><input class="form-control" ng-model="drugs.dcreateDate"></td>
+            </tr> <tr>
+                <td>Drug create user </td><td><input class="form-control" ng-model="drugs.dcreateuser"></td>
+            </tr>
+            <tr>
+                <td> Last update </td><td><input class="form-control" ng-model="drugs.dupdate"></td>
+            </tr>
+            <tr>
+                <td> Last update user </td><td><input  class="form-control" ng-model="drugs.dLastUpdateUser"></td>
+            </tr>
+            <tr>
+                <td>Drug active </td><td><input class="form-control" ng-model="drugs.dActive"></td>
+            </tr>
+            <tr>
+                <td>Drug dosage </td><td><input class="form-control" ng-model="drugs.dDosage"></td>
+            </tr>
+            <tr>
+                <td>Drug frequency </td><td><input type="text" class="form-control" ng-model="drugs.dFrequency"></td>
+            </tr>
+            <tr>
+                <td>Drug type </td><td><input type="text" class="form-control" ng-model="drugs.dType"></td>
+            </tr>
+            <tr>
+                <td> </td><td> <button type="button" ng-click="saveD()">Save</button></td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

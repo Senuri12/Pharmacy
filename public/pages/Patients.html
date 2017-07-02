@@ -1,0 +1,92 @@
+
+<div class="table-responsive" >
+    <h1 align="center">Drug Dispense</h1>
+    <table class="table">
+        <div align="right">
+            <form class="form-inline">
+                <div class="form-group mx-sm-3">
+                    <label class="container">Patient Id :
+                        <input type="text" class="container" ng-model="word1" style="width:100px;">
+                        <button type="submit"  class="btn btn-primary btn-sm" ng-click="SearchPatient(word1)">Search</button>
+                    </label>
+                </div>
+                <div class="form-group mx-sm-3">
+                    <label class="container">Search Prescription:
+                        <input type="text" class="container" ng-model="word2" style="width:100px;">
+                        <button type="submit" class="btn btn-primary btn-sm" ng-click="SearchPrescription2(word2)">Search</button>
+                    </label>
+                </div>
+            </form>
+        </div>
+
+            </form>
+            <thead>
+            <tr>
+
+                <th>Prescription id</th>
+                <th>Patient id</th>
+                <th>Create Date</th>
+                <th>Prescription Date</th>
+                <th>Action</th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+
+            <tr ng-repeat="pres in prescription ">
+                <!--| filter: greaterThan('qu', 530)-->
+                <td>{{pres.Prescription_ID}}</td>
+                <td>{{pres.Patient_ID}}</td>
+                <td>{{pres.Create_Date}}</td>
+                <td>{{pres.Prescription_Date}}</td>
+                <td><button class="btn btn-info"   ng-click="loadpres(pres.Prescription_ID)">View and Dispense</button></td>
+
+
+            </tr>
+            </tbody>
+
+    </table>
+    <div align="center">
+        <label ng-class="container"><a href="/dispense">Recipt</a></label>
+    </div>
+</div>
+
+
+
+<div class="table-responsive" >
+    <h1 align="center">Drug Dispense</h1>
+    <table class="table">
+        <thead>
+        <tr>
+
+            <th>Drug Name</th>
+            <th>Dosage</th>
+            <th>Frequency</th>
+            <th>Period</th>
+            <th>Quantity</th>
+            <th>Action</th>
+
+        </tr>
+        </thead>
+        <tbody>
+
+
+        <tr ng-repeat="dis in dispensedata ">
+
+            <td>{{dis.Drug_name}}</td>
+            <td>{{dis.Dosage}}</td>
+            <td>{{dis.frequncy}}</td>
+            <td>{{dis.period}}</td>
+            <td>{{dis.quantity}}</td>
+            <td><button class="btn btn-warning"  type="button" class="btn btn-warning" ng-click="dispens(dis.Prescription_ID,dis.Drug_name,dis.quantity)">Dispense</button></td>
+
+        </tr>
+        </tbody>
+
+    </table>
+    <div align="center">
+        <label ng-class="container"><a href="/">back</a></label>
+    </div>
+
+</div>

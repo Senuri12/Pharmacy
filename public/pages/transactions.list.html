@@ -1,0 +1,46 @@
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Stock Transaction History</h3>
+                    <div class="container">
+                        <div class="box-body">
+
+                            <table id="example1" class="table table-bordered table-striped table-hovered table-condensed">
+                                <thead>
+                                <tr>
+                                    <th>Transfer ID</th>
+                                    <th>Purchase ID</th>
+                                    <th>Supplier ID</th>
+                                    <th>Recieved Drug IDs</th>
+                                    <th>Recieved Quantities</th>
+                                    <th>Status</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="transfer in transfers">
+                                    <td>{{transfer._id}}</td>
+                                    <td>{{transfer.stock_transfer_purchase_id}}</td>
+                                    <td>{{transfer.stock_transfer_supp_id}}</td>
+                                    <td>{{transfer.stock_transfer_drug_id}}</td>
+                                    <td>{{transfer.stock_transfer_qty}}</td>
+                                    <td>{{transfer.stock_transfer_status}}</td>
+                                    <td></td>
+                                    <!--<td ng-class="{'color-red': purchase_purchase_quantity <=  purchase_purchase_danger_level, 'color-yellow': purchase_purchase_quantity >  purchase_purchase_danger_level}">{{purchase.purchase_purchase_quantity}}</td>-->
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

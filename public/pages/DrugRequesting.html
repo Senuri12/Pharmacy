@@ -1,0 +1,39 @@
+<div class="table-responsive" >
+    <h1 align="center">Drug Request from Chief Pharmasist</h1>
+    <table class="table">
+        <div align="right">
+            <form class="form-inline">
+                <div class="form-group mx-sm-3">
+                        <label class="container">Search :
+                            <input type="text" class="container" ng-model="word" style="width:100px;">
+                            <button type="submit" class="btn btn-primary" ng-click="Search(word)">Search</button>
+                        </label>
+                </div>
+            </form>
+        </div>
+        <thead>
+        <tr>
+            <th>Drug id</th>
+            <th>Drug name</th>
+            <th>Available Quantity</th>
+            <th>Requesting Quantity</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="drug in drugstock ">
+            <td>{{drug.drug_stock_id}}</td>
+            <td>{{drug.drug_stock_name}}</td>
+            <td>{{drug.drug_stock_quantity}}</td>
+            <td><input type="number" ng-model="drug.reqQuantity"></td>
+            <td><input type="checkbox" ng-model="drug.checks"
+                       ng-click="requst(drug._id,drug.reqQuantity,drug.checks)"></td>
+        </tr>
+        </tbody>
+    </table>
+    <div align="right">
+        <label ng-class="container"><a href="/">back</a></label>
+        <button type="button" ng-disabled="stopSpam" class="btn btn-info" ng-click="mesg()">Request</button>
+    </div>
+
+</div>

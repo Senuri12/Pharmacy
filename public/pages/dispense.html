@@ -1,0 +1,37 @@
+<span style="border: rgba(0,0,0,0.91)">
+<div class="table-responsive" >
+<h1 align="center">Recipt</h1>
+<table class="table">
+    <div class="container">
+        <select ng-model="selectvalue">
+            <option ng-repeat="pres in prescriptionback">{{pres.Patient_ID}}</option>
+        </select>
+        <button class="btn-info">Create recipt</button>
+    </div>
+    <thead>
+<tr>
+
+<th>Prescription id : {{selectvalue}}</th>
+</tr>
+<tr>
+<th>Prescription Date</th>
+    <th>Drug Name</th>
+    <th>Drug Quantity</th>
+</tr>
+</thead>
+<tbody>
+
+
+<tr ng-repeat="pres in prescriptionback ">
+<!--| filter: greaterThan('qu', 530)-->
+<td>{{pres.Patient_ID}}</td>
+<td>{{pres.Create_Date}}</td>
+<td>{{pres.Prescription_Date}}</td>
+
+
+</tr>
+</tbody>
+
+</table>
+</div>
+</span>

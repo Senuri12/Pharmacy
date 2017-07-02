@@ -1,0 +1,39 @@
+
+<div class="table-responsive" >
+    <h1 align="center">View Requests History</h1>
+    <table class="table">
+        <thead>
+
+        <tr>
+
+            <td>Request ID</td>
+            <td>Drug ID</td>
+            <td>Drug Name</td>
+            <td>Requested Quantity</td>
+            <td>Available Quantity</td>
+            <td>Date</td>
+            <td>Status</td>
+            <td>Approved Quantity</td>
+
+        </tr>
+        </thead>
+        <tbody>
+
+
+        <tr ng-repeat="reqs in allDet">
+            <td>{{reqs.Request_ID}}</td>
+            <td>{{reqs.Drug_ID}}</td>
+            <td>{{reqs.Drug_Name}}</td>
+            <td>{{reqs.Requested_Quantity}}</td>
+            <td>{{reqs.Available_Quantity}}</td>
+            <td>{{reqs.Date}}</td>
+            <td>{{reqs.Status}}</td>
+            <td>{{reqs.Approved_Quantity}}</td>
+
+        </tr>
+        </tbody>
+
+    </table>
+
+
+</div>

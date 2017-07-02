@@ -1,0 +1,39 @@
+<div class="table-responsive" >
+    <h1 align="center">View Requests</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Request ID</td>
+            <td>Drug ID</td>
+            <td>Drug Name</td>
+            <td>Requested Quantity</td>
+            <td>Available Quantity</td>
+            <td>Date</td>
+            <td>Department</td>
+            <td>Status</td>
+            <td>Approved Quantity</td>
+            <td>Approve</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="reqs in Drurequest">
+            <td>{{reqs.Request_ID}}</td>
+            <td>{{reqs.Drug_ID}}</td>
+            <td>{{reqs.Drug_Name}}</td>
+            <td>{{reqs.Requested_Quantity}}</td>
+            <td>{{reqs.Available_Quantity}}</td>
+            <td>{{reqs.Date}}</td>
+            <td>{{reqs.Department}}</td>
+            <td>{{reqs.Status}}</td>
+            <td><input  type="number"  ng-model="reqs.Approved_Quantity" > </td>
+            <!--<td> <input type="checkbox" ng-click="toggleSelection($event)"></td>-->
+            <td> <input type="checkbox" value="{{reqs}}"
+                        ng-checked="drugRequests.indexOf(reqs) > -1" ng-click="toggleSelection(reqs)"></td>
+        </tr>
+        </tbody>
+    </table>
+    <div align="right">
+        <td><button class="btn btn-info" ng-click="Approval()">Approve</button> </td>
+    </div>
+
+</div>
